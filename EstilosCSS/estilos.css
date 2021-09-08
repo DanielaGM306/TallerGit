@@ -1,0 +1,126 @@
+body{
+    margin: 3em;
+}
+#bordes{
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+hr{
+    border-width:4x;
+    border-style:dotted;
+    border-color:blue;
+    width:50%;
+}
+p{
+    text-align: center;
+}
+#uno{
+    border-top: 1px solid red;
+    border-bottom: 2px dotted green;
+    border-right: 1px dashed #3C5391;
+    border-left: 1px inset orange;
+}
+#dos-1{
+    border: 2px none;
+}
+#dos-2{
+    border: 2px solid grey;
+}
+#dos-3{
+    border: 2px dotted grey;
+}
+#dos-4{
+    c
+}
+#dos-5{
+    border: 2px inset grey;
+}
+#dos-6{
+    border: 2px outset grey;
+}
+#apartado1{
+    text-align: center;
+    margin: auto;
+    width:300px;
+    height:100px;
+    border:3px solid brown;
+    border-radius: 10px 0px 39px 22px;
+}
+
+#sombras{
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+#section{
+    background-color: indianred;
+    width:300px;
+    height:100px;
+    box-shadow: 6px 20px 1px black;
+}
+#section2{
+    background-color: rgb(205, 203, 92);
+    width:300px;
+    height:100px;
+    box-shadow: 7px 9px 15px black inset;
+}
+#section3{
+    background-color: rgb(199, 116, 195);
+    width:300px;
+    height:100px;
+    box-shadow: 0px 0px 30px blue;
+}
+#apartado2{
+    font-style: initial;
+    margin: auto;
+    height:100px;
+    text-align: center;
+    text-shadow: 10px 10px 5px gray;
+}
+#apartado3{
+    background-color: rgb(46, 150, 219);
+    width:300px;
+    height:100px;
+    box-shadow: 0px 0px 20px red inset, 0px 0px 25px blue;
+}
+
+#header{
+    background-color:#E3D193;
+    width: 300px;
+    height: 100px;
+}
+#header1{
+    background-color:rgba(255,255,0,0.4);
+    width: 300px;
+    height: 100px;
+}
+#explicacion{
+    background:url('../EstilosCSS/Imagenes/uno.png');
+    width: 600px;
+    height: 300px;
+}
+#explicacion2{
+    background:url('../EstilosCSS/Imagenes/dos.png');
+    background-repeat: repeat-y;
+    background-size:200px 100px;
+    background-size:25%;
+}
+#explicacion2{
+    background:url('../EstilosCSS/Imagenes/cinco.gif'), url('../EstilosCSS/Imagenes/cuatro.png'), url('../EstilosCSS/Imagenes/tres.png');
+    width: 600px;
+    height: 300px;
+  }
+#header4{
+    background:url('../EstilosCSS/Imagenes/seis.jpg');
+    background-attachment:fixed;
+    width: 600px;
+    height: 600px;
+}
+#header5{
+    background:url('../EstilosCSS/Imagenes/siete.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 600px;
+    height: 300px;
+}
